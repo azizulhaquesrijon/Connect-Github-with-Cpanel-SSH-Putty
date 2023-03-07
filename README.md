@@ -18,3 +18,33 @@ Enter same passphrase again:<br>
 Then if it is successfull it will show a success message - You've successfully authenticated, but GitHub does not provide shell access.
 
 </p>
+
+
+<p><b>Step 9 .</b>Go to cpane ---> Security ---> SSH Access ---> Manage SSH Keys ---> click to manage ---> then click to Autorize</p>
+
+<p><b>Step 10 .</b>Open github reprository ---> Setting ---> Deploy Keys ---> Add deploy Keys ---> set any title and key(SSH key)
+<br>
+<span style="color:green;">SSH Key : </span>Go to cpane ---> Security ---> SSH Access ---> Manage SSH Key ---> View/Download ---> copy full key
+<br>
+*** Check allow write access.
+</p>
+
+<p><b>Step 11 .</b>To check weather domain is connected to github or not - </p>
+
+ ```PHP 
+ ssh -T git@github.com
+ ```
+
+<p><b>Step 9 .</b>Go to cpane ---> Git Version Control under file section ---> Click on create <br>
+
+Clone Url - Git reporisitory ->code -> copy ssh 
+
+Reprository Path - Filemanager empty path (Domain Path)
+</p>
+
+<p><b>Step 12 . </b> Go to github reprository list (Git Version Control) -----> Manage -----> Pull or Deploy ----> Click to Update From Remote</p>
+
+
+<p><b>Youtube Link . </b>https://www.youtube.com/watch?v=3-6wQIDj-yE&t=22s</p>
+
+
